@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYME mensaje>
+<pedido>
+  <destinatario>
+      <nombre>Pilar</nombre>
+    <apellido>Martinez</apellido>
+</destinatario>
+  <articulo>
+  <nombre_articulo>vino rosado espumoso manchego</nombre_articulo>
+  <codigo_articulo>52350</codigo_articulo>
+</articulo>
+  <direcion_entrega>
+<calle>los arcos</calle>
+<numero>25</numero>
+  </direcion_entrega>
+<fecha_entrega>01-03-2025<fecha_entrega>
+</pedido>

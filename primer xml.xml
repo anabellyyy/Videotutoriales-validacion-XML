@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lista_mails>
+<email fecha="2025-03-10">
+  <de>anabet.ramos@gmail.com</de>
+  <para>ana_belen_ramos@hotmail.com</para>
+   <para>josegara2011@gmail.com</para>
+   <cc>jefe@miempresa.com</cc>
+  <bcc>directorgeneral@miempresa.com</bcc>
+<asunto>enviar informe</asunto>
+<cuerpo>nos estamos demorando en la emision de los informes, es URGENTE</cuerpo>
+
+</email>
+<email id="2" fecha="2025-02-20">
+  <de>anabet.ramos@gmail.com</de>
+  <para>josegara2011@gmail.com</para>
+   <cc>jefe@miempresa.com</cc>
+  <bcc>directorgeneral@miempresa.com</bcc>
+<asunto>enviar presupuestos</asunto>
+<cuerpo>por favor pedir presupuesto para la nueva impresora</cuerpo>
+</email>
+</lista_mails>

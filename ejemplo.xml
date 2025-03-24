@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula [ 
+<!ELEMENT matricula (personal, pago)> 
+<!ELEMENT personal (dni,nombre,tutulacion,curso_academico,domicilios)>
+<!ELEMENT dni (#PCDATA)> 
+<!ELEMENT nombre (#PCDATA) > 
+<!ELEMENT titulacion (#PCDATA) > 
+<!ELEMENT curso_academico (#PCDATA) >
+<!ELEMENT domicilios (domicilio+) > 
+<!ATTLIST domicilio tipo (familiar | personal) "personal">
+<!ELEMENT domicilio (nombre)>
+<!ELEMENT pago (tipo_matricula) > 
+<!ELEMENT tipo_matricula (#PCDATA) > 
+] >
+<matricula>
+   <personal>
+    <dni>05555777x</dni>
+    <nombre>juan carlos gomez</nombre>
+    <titulacion>enfermero</titulacion>
+    <curso_academico>1999/2000</curso_academico>
+    <domicilios>
+    <domicilio tipo="familiar">
+    <nombre>calle luna 5</nombre>
+    </domicilio>
+    </domicilios>
+</personal>
+  <pago>
+    <tipo_matricula>libre</tipo_matricula>
+    </pago>
+</matricula>
